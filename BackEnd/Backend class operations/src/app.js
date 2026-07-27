@@ -16,6 +16,6 @@ app.get('/', (req, res) => {
   res.json({ message: 'Operations API running' });
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`[Operations] Server running on http://localhost:${PORT}`);
 });
