@@ -48,7 +48,6 @@ const ComputationsService = {
     };
   },
 
-  // POST /days-to-expire
   async daysToExpire(data) {
     let expirationDate;
 
